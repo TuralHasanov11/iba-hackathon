@@ -1,0 +1,29 @@
+#chatArea {
+    /* display: none; */
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 9;
+    max-width: 25rem;
+}
+
+#chatArea .main {
+    /* max-height: 37.5rem; */
+    height: 30rem;
+}
+
+#chatArea .message {
+    font-size: 0.8rem !important;
+}
+
+#chatArea .message-content {
+    max-width: 70%;
+}
+
+#chatArea .chat-main {
+    display: none;
+}
+
+#chatArea .message-content {
+    padding: 0.75rem !important;
+}
